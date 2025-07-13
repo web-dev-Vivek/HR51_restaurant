@@ -10,7 +10,7 @@ const FeatureSection = () => {
           <div className="lg:w-1/2 lg:pr-12 lg:mb-0">
             <h2
               style={{ fontFamily: "Winky Rough, cursive" }}
-              className="font-playfair text-4xl md:text-6xl font-semibold text-gray-900 mb-2"
+              className="font-playfair text-4xl md:text-6xl font-semibold text-yellow-500 mb-2"
             >
               Home of the lovely...
             </h2>
@@ -22,8 +22,8 @@ const FeatureSection = () => {
               can be.
             </p>
           </div>
-          <div className="lg:w-1/2 flex justify-center">
-            <div className="w-90 h-96 rounded-t-full bg-dark-green shadow-xl flex items-center justify-center ">
+          <div className="lg:w-1/2 lg:h-3/4 flex justify-center">
+            <div className=" rounded-t-full bg-dark-green shadow-xl flex items-center justify-center ">
               <img
                 src={item1}
                 alt="Gourmet Burger"
@@ -38,7 +38,7 @@ const FeatureSection = () => {
           <div className="lg:w-1/2 lg:pl-12 mb-8 lg:mb-0 text-center lg:text-left">
             <h2
               style={{ fontFamily: "Winky Rough, cursive" }}
-              className="font-playfair text-4xl md:text-5xl font-semibold text-gray-900 mb-6"
+              className="font-playfair text-4xl md:text-5xl font-semibold text-yellow-500 mb-6"
             >
               ...and tasty Dishes.
             </h2>
@@ -50,13 +50,20 @@ const FeatureSection = () => {
               globe.
             </p>
           </div>
-          <div className="lg:w-1/2 flex justify-center">
-            <div className="w-90 h-96 rounded-t-full bg-dark-green shadow-xl flex items-center justify-center ">
+          <div className="lg:w-1/2 lg:h-1/2 flex justify-center">
+            <div className="  rounded-t-full bg-dark-green shadow-xl flex items-center justify-center ">
               <img
                 src={item1}
                 alt="Gourmet Burger"
                 className="w-full h-full rounded-t-full object-cover"
               />
+            </div>
+          </div>
+        </div>
+        <div class="block-break-block py-auto mb-10 mt-10 ">
+          <div class="container">
+            <div class="row ">
+              <hr />
             </div>
           </div>
         </div>

@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import LOGO from "../assets/logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,12 +9,7 @@ const Header = () => {
       <div className="max-w-7xl mx-auto flex md:h-[12vh] items-center justify-between">
         {/* Logo */}
         <div className="font-playfair flex flex-col justify-center items-center md:items-start">
-          <h1 className="text-4xl font-semibold">HR51</h1>
-          <p>
-            RESTAURANT
-            <br />
-            TAKEAWAY
-          </p>
+          <img className="w-20 h-20" src={LOGO} alt="" />
         </div>
 
         {/* Desktop Navigation */}
