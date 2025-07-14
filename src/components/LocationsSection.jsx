@@ -73,13 +73,13 @@ const LocationsSection = () => {
               </h3>
               <p
                 style={{ fontFamily: "DM Serif Text, serif" }}
-                className="text-gray-700 mb-4 h-19 leading-relaxed"
+                className="text-gray-700 mb-10 lg:mb-15 h-19 leading-relaxed"
               >
                 {location.description}
               </p>
               <a
                 href="#"
-                className="text-dark-green font-medium hover:text-light-green md:mb-10 transition-colors inline-flex items-center"
+                className="text-dark-green font-medium hover:text-light-green  lg:mb-20 transition-colors inline-flex items-center"
               >
                 {location.link}
                 <svg
