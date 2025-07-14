@@ -8,7 +8,7 @@ const LocationsSection = () => {
     {
       name: "London",
       description:
-        "Visit restaurants about London for a truly unique and exciting way to Burger & Lobster B-L is open 7 days a week.",
+        "Visit restaurants about London for a truly unique and exciting way to HR51B-L is open 7 days a week.",
       image: Area1,
       link: "View restaurant info",
     },

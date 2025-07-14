@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
@@ -7,34 +7,124 @@ const Footer = () => {
         {/* Logo */}
         <div className="text-center mb-8">
           <div className="font-playfair text-3xl font-semibold text-gray-900">
-            Burger & Lobster
+            HR51 Restaurant
           </div>
         </div>
 
         {/* Footer Links */}
         <div className="flex flex-wrap justify-center gap-6 md:gap-8 mb-8 text-sm">
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">About Us</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">FAQs</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">COVID Statement</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Careers</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Gift Vouchers</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Locations</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Press</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Contact</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">T&Cs/Allergens</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Delivery</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">FHA</a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            About Us
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            FAQs
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            COVID Statement
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Careers
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Gift Vouchers
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Locations
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Press
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Contact
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            T&Cs/Allergens
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Delivery
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            FHA
+          </a>
         </div>
 
         {/* Additional Links */}
         <div className="flex flex-wrap justify-center gap-6 md:gap-8 mb-8 text-sm">
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Privacy Policy</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Cookie Policy</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Gender Pay Gap Report</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Modern Slavery Statement</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Website Terms</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Accessibility</a>
-          <a href="#" className="text-gray-700 hover:text-gray-900 transition-colors">Manage Cookies</a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Privacy Policy
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Cookie Policy
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Gender Pay Gap Report
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Modern Slavery Statement
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Website Terms
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Accessibility
+          </a>
+          <a
+            href="#"
+            className="text-gray-700 hover:text-gray-900 transition-colors"
+          >
+            Manage Cookies
+          </a>
         </div>
 
         {/* Copyright */}

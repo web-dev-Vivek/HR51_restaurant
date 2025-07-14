@@ -1,5 +1,5 @@
 import React from "react";
-import Chef from "../assets/chef.png";
+import Chef from "../assets/chef.jpg";
 
 const HeroSection = () => {
   return (
@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="max-w-4xl mx-auto text-center mb-20">
         {/* Circular Logo Area */}
         <div className="relative m-5 ">
-          <div className="w-96 h-110 mx-auto bg-red-600 object-contain overflow-hidden">
+          <div className="w-96 h-110 rounded-t-full mx-auto bg-red-600 object-contain overflow-hidden">
             <img
               src={Chef}
               className="w-full h-full  object-cover"

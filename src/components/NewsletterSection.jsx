@@ -1,33 +1,31 @@
-import React, { useState } from 'react';
+import { useState } from "react";
+import HR from "../assets/HR.mp4";
 
 const NewsletterSection = () => {
-  const [email, setEmail] = useState('');
-  const [firstName, setFirstName] = useState('');
-  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState("");
+  const [firstName, setFirstName] = useState("");
+  const [lastName, setLastName] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle newsletter signup
-    console.log('Newsletter signup:', { email, firstName, lastName });
+    console.log("Newsletter signup:", { email, firstName, lastName });
   };
 
   return (
     <section className="section-spacing bg-cream">
-      <div className="max-w-4xl mx-auto px-6 text-center">
+      <div className="  mx-auto px-6 text-center">
         {/* Elegant dining image */}
-        <div className="mb-16">
-          <img 
-            src="https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&w=800&h=400&fit=crop" 
-            alt="Elegant Dining" 
-            className="w-full h-64 md:h-80 object-cover rounded-lg shadow-lg"
-          />
+        <div className="mb-24 sm:mb-40 lg:mb-[70vh]">
+          <video src={HR} autoPlay muted loop className="w-full h-auto"></video>
         </div>
 
         <h2 className="font-playfair text-4xl md:text-5xl font-semibold text-gray-900 mb-6">
           Sign up for more
         </h2>
         <p className="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
-          Stay up to date with all our delicious seasonal menu, offers, wines and premium Burger & Lobster updates.
+          Stay up to date with all our delicious seasonal menu, offers, wines
+          and premium HR51updates.
         </p>
 
         <form onSubmit={handleSubmit} className="max-w-lg mx-auto">
