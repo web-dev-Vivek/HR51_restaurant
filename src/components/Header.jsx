@@ -1,56 +1,57 @@
 import React, { useState } from "react";
-import LOGO from "../assets/logo.png";
+import LOGO from "../assets/logo.png"; // adjust path as needed
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-black text-white ">
-      <div className="max-w-7xl mx-auto flex md:h-[12vh] items-center justify-between md:p-4 pl-5 pr-5">
+    <header className="bg-black text-white w-full shadow-md z-50 sticky top-0">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3 md:py-0 md:h-[12vh]">
         {/* Logo */}
-        <div className="font-playfair bg-white rounded-full flex flex-col justify-center items-center md:items-start">
-          <img className="w-20 h-20" src={LOGO} alt="" />
+        <div className="bg-white rounded-full p-2">
+          <img src={LOGO} alt="Logo" className="w-16 h-16 object-contain" />
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
           <a
             href="#locations"
-            className="hover:text-black/70 font-bold transition-colors"
+            className="hover:text-gray-400 font-semibold transition"
           >
             Locations
           </a>
           <a
             href="#menu"
-            className="hover:text-black/70 font-bold transition-colors"
+            className="hover:text-gray-400 font-semibold transition"
           >
             Menu
           </a>
           <a
             href="#about"
-            className="hover:text-black/70 font-bold transition-colors"
+            className="hover:text-gray-400 font-semibold transition"
           >
             About
           </a>
           <a
             href="#contact"
-            className="hover:text-black/70 font-bold transition-colors"
+            className="hover:text-gray-400 font-semibold transition"
           >
             Contact
           </a>
         </nav>
 
-        {/* Find A Table Button */}
+        {/* Desktop Button */}
         <div className="hidden md:block">
-          <button className="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 hover:text-black transition-colors">
+          <button className="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-200 transition">
             Book your Table
           </button>
         </div>
 
-        {/* Mobile Menu Button */}
+        {/* Mobile Menu Toggle Button */}
         <button
-          className="md:hidden"
+          className="md:hidden focus:outline-none"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Toggle Menu"
         >
           <svg
             className="w-6 h-6"
@@ -62,7 +63,9 @@ const Header = () => {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth={2}
-              d="M4 6h16M4 12h16M4 18h16"
+              d={
+                isMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
+              }
             />
           </svg>
         </button>
@@ -70,34 +73,22 @@ const Header = () => {
 
       {/* Mobile Navigation */}
       {isMenuOpen && (
-        <div className="md:hidden mt-4 pb-4">
-          <nav className="flex flex-col space-y-2">
-            <a
-              href="#locations"
-              className="py-2 hover:text-gray-300 transition-colors"
-            >
+        <div className="md:hidden px-4 pb-6">
+          <nav className="flex flex-col space-y-4 mt-4 text-center">
+            <a href="#locations" className="hover:text-gray-300 transition">
               Locations
             </a>
-            <a
-              href="#menu"
-              className="py-2 hover:text-gray-300 transition-colors"
-            >
+            <a href="#menu" className="hover:text-gray-300 transition">
               Menu
             </a>
-            <a
-              href="#about"
-              className="py-2 hover:text-gray-300 transition-colors"
-            >
+            <a href="#about" className="hover:text-gray-300 transition">
               About
             </a>
-            <a
-              href="#contact"
-              className="py-2 hover:text-gray-300 transition-colors"
-            >
+            <a href="#contact" className="hover:text-gray-300 transition">
               Contact
             </a>
-            <button className="bg-white text-gray-900 px-6 py-2 rounded-full font-medium hover:bg-gray-100 transition-colors mt-4 w-fit">
-              Find A Table
+            <button className="bg-white text-black px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition mx-auto mt-4">
+              Book your Table
             </button>
           </nav>
         </div>

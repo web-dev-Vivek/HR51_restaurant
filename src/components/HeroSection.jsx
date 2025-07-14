@@ -7,7 +7,7 @@ const HeroSection = () => {
       <div className="max-w-4xl mx-auto text-center mb-20">
         {/* Circular Logo Area */}
         <div className="relative m-5 ">
-          <div className="w-96 h-110 rounded-t-full mx-auto bg-red-600 object-contain overflow-hidden">
+          <div className="lg:w-96 lg:h-110 rounded-t-full mx-auto bg-red-600 object-contain overflow-hidden">
             <img
               src={Chef}
               className="w-full h-full  object-cover"

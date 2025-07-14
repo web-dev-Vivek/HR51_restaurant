@@ -79,7 +79,7 @@ const LocationsSection = () => {
               </p>
               <a
                 href="#"
-                className="text-dark-green font-medium hover:text-light-green transition-colors inline-flex items-center"
+                className="text-dark-green font-medium hover:text-light-green md:mb-10 transition-colors inline-flex items-center"
               >
                 {location.link}
                 <svg
