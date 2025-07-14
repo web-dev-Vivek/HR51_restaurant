@@ -6,23 +6,23 @@ import Area3 from "../assets/area3.jpg";
 const LocationsSection = () => {
   const locations = [
     {
-      name: "London",
+      name: "HR51",
       description:
-        "Visit restaurants about London for a truly unique and exciting way to HR51B-L is open 7 days a week.",
+        "lorem45 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: Area1,
       link: "View restaurant info",
     },
     {
-      name: "Brighton",
+      name: "HR51",
       description:
-        "Seafood lovers can find spectacular cuisine from the most London & Brighton where fresh fish for the day.",
+        "lorem45 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: Area2,
       link: "View restaurant info",
     },
     {
-      name: "New York",
+      name: "HR51",
       description:
-        "Our food and location combine to make the NY Apple a world-wide known.",
+        "lorem45 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       image: Area3,
       link: "View restaurant info",
     },

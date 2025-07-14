@@ -5,7 +5,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-yellow-500 text-black ">
+    <header className="bg-black text-white ">
       <div className="max-w-7xl mx-auto flex md:h-[12vh] items-center justify-between md:p-4 pl-5 pr-5">
         {/* Logo */}
         <div className="font-playfair flex flex-col justify-center items-center md:items-start">
@@ -42,7 +42,7 @@ const Header = () => {
 
         {/* Find A Table Button */}
         <div className="hidden md:block">
-          <button className="bg-black text-white px-6 py-2 rounded-full font-medium hover:bg-white hover:text-black transition-colors">
+          <button className="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 hover:text-black transition-colors">
             Book your Table
           </button>
         </div>
