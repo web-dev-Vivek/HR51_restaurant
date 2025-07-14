@@ -30,14 +30,20 @@ const LocationsSection = () => {
 
   return (
     <section className="section-spacing bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-6 mb-15">
         <div className="text-center mb-16">
-          <h2 className="font-playfair text-4xl md:text-5xl font-semibold text-gray-900 mb-4">
+          <h2
+            style={{ fontFamily: "DM Serif Text, serif" }}
+            className="font-playfair text-4xl md:text-5xl font-semibold text-gray-900 mb-4"
+          >
             Burger & Lobster
             <br />
             restaurants
           </h2>
-          <p className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
+          <p
+            style={{ fontFamily: "DM Serif Text, serif" }}
+            className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed"
+          >
             Here at Burger & Lobster, you're free to have your table manner to
             the place. Check them before reserving a table at your location.
             Ensure you bring your own flair & share. Fill it again. It's time to
@@ -47,7 +53,11 @@ const LocationsSection = () => {
 
         <div className="grid md:grid-cols-3 gap-8">
           {locations.map((location, index) => (
-            <div key={index} className="group">
+            <div
+              style={{ fontFamily: "DM Serif Text, serif" }}
+              key={index}
+              className="group"
+            >
               <div className="relative overflow-hidden rounded-lg mb-6">
                 <img
                   src={location.image}
@@ -55,10 +65,16 @@ const LocationsSection = () => {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
-              <h3 className="font-playfair text-2xl font-semibold text-gray-900 mb-3">
+              <h3
+                style={{ fontFamily: "DM Serif Text, serif" }}
+                className="font-playfair text-2xl font-semibold text-gray-900 mb-3"
+              >
                 {location.name}
               </h3>
-              <p className="text-gray-700 mb-4 leading-relaxed">
+              <p
+                style={{ fontFamily: "DM Serif Text, serif" }}
+                className="text-gray-700 mb-4 h-19 leading-relaxed"
+              >
                 {location.description}
               </p>
               <a

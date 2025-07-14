@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <header className="bg-yellow-500 text-black ">
-      <div className="max-w-7xl mx-auto flex md:h-[12vh] items-center justify-between">
+      <div className="max-w-7xl mx-auto flex md:h-[12vh] items-center justify-between md:p-4 pl-5 pr-5">
         {/* Logo */}
         <div className="font-playfair flex flex-col justify-center items-center md:items-start">
           <img className="w-20 h-20" src={LOGO} alt="" />
