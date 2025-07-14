@@ -36,18 +36,18 @@ const LocationsSection = () => {
             style={{ fontFamily: "DM Serif Text, serif" }}
             className="font-playfair text-4xl md:text-5xl font-semibold text-gray-900 mb-4"
           >
-            Burger & Lobster
+            HR51
             <br />
-            restaurants
+            Restaurants
           </h2>
           <p
             style={{ fontFamily: "DM Serif Text, serif" }}
             className="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed"
           >
-            Here at Burger & Lobster, you're free to have your table manner to
-            the place. Check them before reserving a table at your location.
-            Ensure you bring your own flair & share. Fill it again. It's time to
-            mess with your senses now.
+            Here at HR51, you're free to have your table manner to the place.
+            Check them before reserving a table at your location. Ensure you
+            bring your own flair & share. Fill it again. It's time to mess with
+            your senses now.
           </p>
         </div>
 

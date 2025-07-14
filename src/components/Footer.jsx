@@ -29,12 +29,6 @@ const Footer = () => {
             href="#"
             className="text-gray-700 hover:text-gray-900 transition-colors"
           >
-            COVID Statement
-          </a>
-          <a
-            href="#"
-            className="text-gray-700 hover:text-gray-900 transition-colors"
-          >
             Careers
           </a>
           <a
@@ -93,24 +87,6 @@ const Footer = () => {
             href="#"
             className="text-gray-700 hover:text-gray-900 transition-colors"
           >
-            Cookie Policy
-          </a>
-          <a
-            href="#"
-            className="text-gray-700 hover:text-gray-900 transition-colors"
-          >
-            Gender Pay Gap Report
-          </a>
-          <a
-            href="#"
-            className="text-gray-700 hover:text-gray-900 transition-colors"
-          >
-            Modern Slavery Statement
-          </a>
-          <a
-            href="#"
-            className="text-gray-700 hover:text-gray-900 transition-colors"
-          >
             Website Terms
           </a>
           <a
@@ -129,8 +105,8 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="text-center text-sm text-gray-600 border-t border-gray-300 pt-8">
-          <p>Registered in England & Wales Company 06234523</p>
-          <p className="mt-2">© 2023 The B&L Group Holdings Limited</p>
+          {/* <p>Registered in England & Wales Company 06234523</p> */}
+          <p className="mt-2">© 2025 The HR51 group Limited</p>
         </div>
       </div>
     </footer>
